@@ -2,8 +2,13 @@
 ; Copyright (C) by Krzysztof Palaiologos Szewczyk
 ; Licensed under MIT license.
 
+; Note it doesn't even use stack!
+; If stk 0 works, do so!
+
 org 0
 stk 1
+
+; db code if you want to create ROM based machine
 
 ; Application entry point (1).
 lbl 1
