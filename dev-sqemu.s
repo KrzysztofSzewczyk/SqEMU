@@ -71,7 +71,7 @@ lbl 6
     clr r4
     mov r3, 8
     le_ r4, r1
-    jnz r3
+    jnz r4, r3
     jmp 5
 lbl 7
     ; Reverse memory from 0 to r3 and jump to 6.
@@ -151,7 +151,7 @@ lbl 8
     inc r1
 
     ; Continue the jump
-    jnz r3
+    jnz r4, r3
 
     ; No branches, loop!
     jmp 6
