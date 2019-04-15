@@ -3,10 +3,9 @@
 ; Licensed under MIT license.
 
 ; Note it doesn't even use stack!
-; If stk 0 works, do so!
 
 org 0
-stk 1
+stk 0
 
 ; db code if you want to create ROM based machine
 
